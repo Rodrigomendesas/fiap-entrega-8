@@ -11,6 +11,5 @@ import java.util.List;
 public class CryptocurrencyController {
     @GetMapping
     public List<Cryptocurrency> getAllCryptocurrencies() {
-        // Logic to retrieve cryptocurrencies
         return new ArrayList<>();
 }}

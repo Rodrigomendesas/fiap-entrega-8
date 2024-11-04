@@ -10,6 +10,5 @@ import java.util.List;
 @RequestMapping("/api/investments")
 public class InvestmentsController {
     public List<Investment> getAllInvestments() {
-        // Logic to retrieve investments
         return new ArrayList<>();
 }}

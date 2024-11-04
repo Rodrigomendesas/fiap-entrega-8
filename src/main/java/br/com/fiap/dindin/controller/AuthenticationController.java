@@ -8,6 +8,5 @@ import org.springframework.web.bind.annotation.*;
 public class AuthenticationController {
     @PostMapping("/login")
     public String login(@RequestBody UserLoginRequest loginRequest) {
-        // Handle login logic
         return "Login successful";
 }}

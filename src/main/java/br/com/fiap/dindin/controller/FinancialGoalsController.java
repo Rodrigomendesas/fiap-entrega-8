@@ -13,7 +13,6 @@ import java.util.List;
 public class FinancialGoalsController {
     @GetMapping
     public List<FinancialGoal> getAllGoals() {
-        // Logic to retrieve financial goals
         return new ArrayList<>();
     }
     @Autowired

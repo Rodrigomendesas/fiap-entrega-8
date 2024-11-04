@@ -26,4 +26,39 @@ public class CryptocurrencyServiceImpl implements CryptocurrencyService {
     public Cryptocurrency saveCryptocurrency(Cryptocurrency cryptocurrency) {
         return cryptocurrencyRepository.save(cryptocurrency);
     }
+
+    @Override
+    public Cryptocurrency getCryptocurrencyById(Long id) {
+        return null;
+    }
+
+    @Override
+    public Cryptocurrency updateCryptocurrency(Long id, Cryptocurrency cryptocurrency) {
+        return null;
+    }
+
+    @Override
+    public void deleteCryptocurrency(Long id) {
+
+    }
+
+    @Override
+    public List<Cryptocurrency> findCryptocurrenciesByName(String name) {
+        return List.of();
+    }
+
+    @Override
+    public List<Cryptocurrency> getTopCryptocurrenciesByMarketCap(int limit) {
+        return List.of();
+    }
+
+    @Override
+    public boolean existsBySymbol(String symbol) {
+        return false;
+    }
+
+    @Override
+    public List<Cryptocurrency> saveAllCryptocurrencies(List<Cryptocurrency> cryptocurrencies) {
+        return List.of();
+    }
 }

@@ -9,4 +9,6 @@ import java.util.List;
 @Repository
 public interface CryptocurrencyRepository extends JpaRepository<Cryptocurrency, Long> {
     List<Cryptocurrency> findAll();
+
+    Cryptocurrency save(Cryptocurrency cryptocurrency);
 }
